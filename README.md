@@ -68,6 +68,26 @@ deleting that parked folder leaves your DCS exactly as it was.
 If you already installed one of these mods yourself, the app finds it, says so, and offers
 to take charge of it. It will not write over it, and it will not delete it.
 
+### If you use OVGME or JSGME
+
+You can keep using them. Just do not point both tools at the same aircraft.
+
+OVGME installs a package by copying it into your DCS folder and keeping its own record of
+what is enabled. This app switches a mod off by moving the folder somewhere safe. If both
+are managing the same aircraft, OVGME still believes it is installed while the files have
+moved, and the next time you disable it there it will try to restore backups over a folder
+that is no longer where it left it.
+
+So pick one owner per aircraft:
+
+- **For the five aircraft in this pack**, disable them in OVGME and let this app have them.
+  It will ask you to confirm you have done that before it takes one over.
+- **For everything else** you install, carry on with OVGME exactly as before. This app only
+  ever looks at the five folders the pack uses, and ignores the rest of your DCS folder.
+
+There is no way for this app to detect OVGME, which is why it asks rather than guesses:
+OVGME leaves no marker in the DCS folder and nothing in the registry.
+
 ### Will this stop me joining other servers?
 
 No. Adding aircraft that DCS does not ship does not taint your client. What a server checks
