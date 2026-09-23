@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "packVersion": "1.0.0",
+  "publishedUtc": "2026-09-22T21:31:59.8541253Z",
+  "baseUrl": "https://github.com/SYNTAX-DCS/Pixelstorm-Mods/releases/download/pack-1.0.0",
+  "mods": [
+    {
+      "id": "su-30-flankerex",
+      "name": "Su-30 FlankerEx (CWS)",
+      "author": "Codename Flanker",
+      "version": "2.8.06b",
+      "summary": "Su-30 with the CWS avionics suite. Also supplies the textures and avCWS the Su-34 below needs.",
+      "targets": [
+        "Mods/aircraft/FlankerEx"
+      ],
+      "requires": [],
+      "selfId": "FlankerEx by Codename Flanker",
+      "bytes": 3986142382,
+      "files": 909,
+      "parts": [
+        {
+          "name": "su-30-flankerex-1.0.0.zip.part01",
+          "bytes": 1610612736,
+          "sha256": "b73f0695dd9d4e55c43342ce7a8e11f4e2c3935cc62b8132202fb331de5b9752"
+        },
+        {
+          "name": "su-30-flankerex-1.0.0.zip.part02",
+          "bytes": 1610612736,
+          "sha256": "ea566e9dc84db3b2a4b7d3a6c90da831ff9f90200dadeb946d9d87c3d695e132"
+        },
+        {
+          "name": "su-30-flankerex-1.0.0.zip.part03",
+          "bytes": 523334117,
+          "sha256": "0c10e7a291adab370573642eda3673b8fa6893dce0106d20f70ba407f069ed34"
+        }
+      ],
+      "archiveSha256": "dc3b447ba62082995df70bc4c164fb2c232aab436ed18f37af0f31b0b4aedc95",
+      "downloadBytes": 3744559589
+    },
+    {
+      "id": "su-34-rff",
+      "name": "Su-34 Red Flag Fighters",
+      "author": "awentyy, alexey1111",
+      "version": "0.1.0",
+      "summary": "Su-34 strike aircraft. Needs the Su-30 FlankerEx mod alongside it.",
+      "targets": [
+        "Mods/aircraft/Su-34"
+      ],
+      "requires": [
+        "su-30-flankerex"
+      ],
+      "selfId": "Su-34",
+      "bytes": 684410214,
+      "files": 307,
+      "parts": [
+        {
+          "name": "su-34-rff-1.0.0.zip.part01",
+          "bytes": 352228343,
+          "sha256": "961b5b68b1da4a06e33d7d48c380fa091a39040fdff436acee90152235265af1"
+        }
+      ],
+      "archiveSha256": "961b5b68b1da4a06e33d7d48c380fa091a39040fdff436acee90152235265af1",
+      "downloadBytes": 352228343
+    },
+    {
+      "id": "f-22a",
+      "name": "F-22A Raptor",
+      "author": "GrinnelliDesigns, EFM by BHOOP Studios",
+      "version": "MK II - EFM",
+      "summary": "F-22A Raptor with an external flight model.",
+      "targets": [
+        "Mods/aircraft/F-22A"
+      ],
+      "requires": [],
+      "selfId": "F-22A by GrinnelliDesigns",
+      "bytes": 2885098016,
+      "files": 303,
+      "parts": [
+        {
+          "name": "f-22a-1.0.0.zip.part01",
+          "bytes": 1388891812,
+          "sha256": "614047fd3592f8aa92137c547e2abba4bebeb30aaf77ab65bf30db3fc19bdb3d"
+        }
+      ],
+      "archiveSha256": "614047fd3592f8aa92137c547e2abba4bebeb30aaf77ab65bf30db3fc19bdb3d",
+      "downloadBytes": 1388891812
+    },
+    {
+      "id": "su-35s-efm",
+      "name": "Su-35S (EFM)",
+      "author": "Codename Flanker",
+      "version": "2.0.27",
+      "summary": "Su-35S with an external flight model.",
+      "targets": [
+        "Mods/aircraft/Su-35S"
+      ],
+      "requires": [],
+      "selfId": "Flanker5 by Codename Flanker",
+      "bytes": 1998498623,
+      "files": 677,
+      "parts": [
+        {
+          "name": "su-35s-efm-1.0.0.zip.part01",
+          "bytes": 1610612736,
+          "sha256": "c6cd289450ef3ea362e5c590afa999244f067f454bb1fcfa4e061aa59237012b"
+        },
+        {
+          "name": "su-35s-efm-1.0.0.zip.part02",
+          "bytes": 188590560,
+          "sha256": "8130020331286594ed1221a862c69e3973f4a8bd0b6afed45a61fe1e8c83cb35"
+        }
+      ],
+      "archiveSha256": "3e0eafde587dbce7b186356c6fbffda492a6dea6483c43da22c7c548facc5d64",
+      "downloadBytes": 1799203296
+    },
+    {
+      "id": "a400m-fr3d",
+      "name": "A400M Atlas (tanker)",
+      "author": "FR3D-Studio",
+      "version": "1.04",
+      "summary": "A400M Atlas transport and tanker. AI only.",
+      "targets": [
+        "Mods/aircraft/A400M"
+      ],
+      "requires": [],
+      "selfId": "A400M_Tanker_FR3D",
+      "bytes": 904295956,
+      "files": 91,
+      "parts": [
+        {
+          "name": "a400m-fr3d-1.0.0.zip.part01",
+          "bytes": 209231052,
+          "sha256": "bd52a4d0ec6cbf74a8d8735856a0fb8d37c9426f6e433170ed55ee8b7d6e452d"
+        }
+      ],
+      "archiveSha256": "bd52a4d0ec6cbf74a8d8735856a0fb8d37c9426f6e433170ed55ee8b7d6e452d",
+      "downloadBytes": 209231052
+    }
+  ]
+}

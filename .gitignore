@@ -1,0 +1,14 @@
+# This repository is the PUBLIC face of the project: a README, the mod catalogue, and
+# Releases. Nothing else belongs here.
+#
+# The source lives in a separate private repository. Nothing in this one should ever be a
+# .cs, a .csproj or a build script, and if one turns up it has been copied to the wrong
+# place.
+*.cs
+*.csproj
+*.sln
+*.slnx
+*.ps1
+bin/
+obj/
+dist/
