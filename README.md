@@ -9,26 +9,34 @@ Built by **Pixel Pilot Club**. Unofficial, and not affiliated with Eagle Dynamic
 
 ## Why it exists
 
-The point is not really the installing. It is the off switch.
+You want to see the other aircraft on the server on a Sunday night, without learning OVGME or
+working out which mod goes where. Tick what you want and press Apply.
 
-You want to see the other aircraft on the server on a Sunday night. You do not want 9.7 GB
-of them sitting in your DCS folder all week, you do not want to learn OVGME, and you should
-not have to work out which mod goes where. Tick what you want, press Apply, fly. Untick it
-afterwards and it is gone from DCS but still on your disk, so turning it back on next week
-is instant and costs no download.
+When you are finished with Pixelstorm, press **Disable All** and DCS is exactly as it was. The
+mods stay on your disk, so switching them back on next week is instant and costs no download.
 
 ---
 
 ## Install
 
-1. Download **PixelstormMods.exe** from [Releases](../../releases/latest).
+1. Download **[PixelstormMods.exe](../../releases/latest/download/PixelstormMods.exe)**.
 2. **Close DCS.**
-3. Run it. It finds your DCS folder on its own.
+3. Run it. It finds your DCS folders on its own.
 4. Tick the mods you want and press **Apply**.
 5. Start DCS.
 
-To take a mod out again, untick it and press Apply. To get rid of it completely, right-click
-the row and choose to delete it.
+To take one mod out again, untick it and press Apply. To take them all out, press
+**Disable All**. To get rid of a mod completely, right-click its row and delete it.
+
+---
+
+## Finished with Pixelstorm?
+
+Press **Disable All**. Every Pixelstorm mod goes off, and every file one of them changed is put
+back, so DCS is exactly as it was before this app touched it.
+
+Forgetting is fine. Flying your own missions with the mods on is no problem at all, and it
+only matters on a server that checks your files (see below).
 
 ---
 
@@ -57,16 +65,27 @@ model. Tick the Su-34 and the Su-30 comes with it automatically, in the right or
 
 ## What it does to your DCS
 
-It only ever adds folders under `Saved Games\DCS\Mods`. It does not edit a single file that
-Eagle Dynamics or a mod author shipped, and it never writes into your DCS program folder at
-all.
+Most mods are aircraft, and they go in `Saved Games\DCS\Mods` as folders of their own.
+Switching one off moves its folder to a parked area inside your DCS write directory, where
+DCS does not look. That is why switching back on is instant.
 
-Turning a mod off moves it into a parked folder inside your DCS write directory rather than
-deleting it. That is why switching back on is instant. Removing the app entirely and
-deleting that parked folder leaves your DCS exactly as it was.
+Some mods change files inside your DCS installation, the program folder itself. Pixelstorm runs
+with file checks off, so that is fine there. Before such a mod replaces a file, the app keeps a
+copy of yours, and Disable All puts each one back.
 
-If you already installed one of these mods yourself, the app finds it, says so, and offers
-to take charge of it. It will not write over it, and it will not delete it.
+A DCS update can land while one of those mods is on and put its own version back over part of
+the mod. The app notices: the mod's row turns amber, and Apply puts the mod's files back. When
+you later switch it off, any file DCS updated in the meantime stays as DCS has it now. It is
+never swapped for an older copy.
+
+Windows protects `C:\Program Files`. If DCS lives there and a mod needs to change it, Windows
+asks for permission once and the app carries on by itself. Mods that live in Saved Games never
+need that.
+
+The app changes nothing while DCS is running, so close DCS first.
+
+If you already installed one of these mods yourself, the app finds it, says so, and offers to
+take charge of it. It will not write over it, and it will not delete it.
 
 ### If you use OVGME or JSGME
 
@@ -80,23 +99,33 @@ that is no longer where it left it.
 
 So pick one owner per aircraft:
 
-- **For the five aircraft in this pack**, disable them in OVGME and let this app have them.
+- **For the aircraft in this pack**, disable them in OVGME and let this app have them.
   It will ask you to confirm you have done that before it takes one over.
 - **For everything else** you install, carry on with OVGME exactly as before. This app only
-  ever looks at the five folders the pack uses, and ignores the rest of your DCS folder.
+  ever touches the folders and files its own mods use, and ignores the rest of your DCS.
+
+The same goes for files inside your DCS installation. If one of your OVGME mods changes a
+file that a Pixelstorm mod also changes, keep only one of them switched on.
 
 There is no way for this app to detect OVGME, which is why it asks rather than guesses:
 OVGME leaves no marker in the DCS folder and nothing in the registry.
 
 ### Will this stop me joining other servers?
 
-No. Adding aircraft that DCS does not ship does not taint your client. What a server checks
-with "pure models" or "pure scripts" is whether you have **modified** something DCS already
-ships, and none of these mods do.
+Servers that require pure scripts or pure models refuse a DCS whose own files have been
+changed. An aircraft that only adds a folder in Saved Games does not count as a change, so on
+its own it will not get you refused.
 
-If you want to be sure, right-click any mod and choose **Will pure servers let me in?**. It
-reads your own DCS log, tells you what your last flight actually flagged, and says whether
-any of it came from this pack or from something else you have installed.
+A mod that changes files inside your DCS installation does count. Press Disable All before you
+fly on one of those servers, and DCS is exactly as it was.
+
+---
+
+## The Pixelstorm sky
+
+If you use ATMOS-X, a **Pixelstorm sky** button appears once the server's sky profile has been
+published. It saves the profile and tells you how to load it in ATMOS-X, so your sky is drawn
+the way the server's is. The weather itself comes from the mission, with or without ATMOS-X.
 
 ---
 
@@ -106,6 +135,9 @@ Downloads are split into parts and checked against a SHA-256 before anything is 
 an interrupted or corrupted download cannot leave you with a half-installed aircraft. If your
 connection drops, run it again and it picks up where it stopped.
 
+Copies of any DCS files a mod replaces are kept in `Saved Games\DCS\_PixelstormMods\backup`
+until that mod is switched off again.
+
 **Do not download the mod archives by hand from the Releases page.** They are split files and
 the parts mean nothing on their own. Let the app fetch them.
 
@@ -113,5 +145,5 @@ the parts mean nothing on their own. Let the app fetch them.
 
 ## Problems
 
-The app writes a log. Right-click a mod and use the menu to check your files, or open an
-issue here and say what the app told you.
+The app writes a log. Right-click a mod and choose **Check the files**, or open an issue here
+and say what the app told you.
