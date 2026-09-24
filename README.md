@@ -48,18 +48,39 @@ only matters on a server that checks your files (see below).
 | Su-35S (EFM) | Codename Flanker |
 | F-22A Raptor (MK II EFM) | GrinnelliDesigns, EFM by BHOOP Studios |
 | Su-34 Red Flag Fighters | awentyy, alexey1111 |
-| A400M Atlas (tanker) | FR3D-Studio |
+| Rafale B, C, M and BM | FR-3D Studio |
+| Rafale engine sounds (optional) | FR-3D Studio |
+| A400M Atlas (tanker) | FR-3D Studio |
+| A330 MRTT Phenix (tanker) | FR-3D Studio |
 
-2,287 files, 9.74 GB once installed, 6.98 GB to download. You do not have to take all of
+3,941 files, 13.04 GB once installed, 8.45 GB to download. You do not have to take all of
 them; tick only the ones you want.
 
-**These aircraft are their authors' work, not ours.** They are packed here exactly as their
-authors shipped them, unmodified. This app installs them and gets out of the way. If you fly
-one and enjoy it, go and tell the person who made it. **Any author who would rather their
-mod was not distributed here only has to say so and it comes out of the pack.**
+**These aircraft are their authors' work, not ours.** They are packed here as their authors
+shipped them, with one exception, the Rafale, described below. This app installs them and gets
+out of the way. If you fly one and enjoy it, go and tell the person who made it. **Any author who
+would rather their mod was not distributed here only has to say so and it comes out of the
+pack.**
 
 Su-34 Red Flag Fighters needs Su-30 FlankerEx alongside it for its textures and its flight
 model. Tick the Su-34 and the Su-30 comes with it automatically, in the right order.
+
+### The Rafale
+
+FR-3D Studio's Rafale installs itself over the stock F/A-18C, and its French weapons change the
+AMRAAMs, Mavericks and Sidewinders of every aircraft in DCS. The Rafale here is the same aircraft,
+repackaged so that it sits beside the stock Hornet and leaves DCS's own aircraft and weapons
+alone:
+
+- Everyone who ticks it sees Rafales on the server. Flying one needs the **F/A-18C module**,
+  because the Rafale flies on the Hornet's systems.
+- It carries DCS's standard weapons under their standard names, so a stock Hornet's weapons stay
+  exactly as they are.
+- Its engine sound is a tick box of its own, off unless you want it. It works by replacing DCS's
+  shared jet sounds, so while it is on, other jets that use them (mostly AI) sound like a Rafale
+  too.
+- A few fixes for this setup: the joystick bindings, some cockpit textures, and where the ATFLIR
+  pod hangs.
 
 ---
 
@@ -68,6 +89,9 @@ model. Tick the Su-34 and the Su-30 comes with it automatically, in the right or
 Most mods are aircraft, and they go in `Saved Games\DCS\Mods` as folders of their own.
 Switching one off moves its folder to a parked area inside your DCS write directory, where
 DCS does not look. That is why switching back on is instant.
+
+When the pack carries a newer build of a mod you already have, its row turns amber, and Apply
+swaps the old build for the new one. A mod that did not change is never downloaded again.
 
 Some mods change files inside your DCS installation, the program folder itself. Pixelstorm runs
 with file checks off, so that is fine there. Before such a mod replaces a file, the app keeps a
