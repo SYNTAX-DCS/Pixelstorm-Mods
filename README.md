@@ -57,13 +57,20 @@ only matters on a server that checks your files (see below).
 them; tick only the ones you want.
 
 **These aircraft are their authors' work, not ours.** They are packed here as their authors
-shipped them, with one exception, the Rafale, described below. This app installs them and gets
-out of the way. If you fly one and enjoy it, go and tell the person who made it. **Any author who
-would rather their mod was not distributed here only has to say so and it comes out of the
-pack.**
+shipped them, with two exceptions described below: the Su-34 and the Rafale both carry our
+changes. This app installs them and gets out of the way. If you fly one and enjoy it, go and
+tell the person who made it. **Any author who would rather their mod was not distributed here
+only has to say so and it comes out of the pack.**
 
-Su-34 Red Flag Fighters needs Su-30 FlankerEx alongside it for its textures and its flight
-model. Tick the Su-34 and the Su-30 comes with it automatically, in the right order.
+### The Su-34
+
+Su-34 Red Flag Fighters needs Su-30 FlankerEx alongside it for its textures and part of its
+avionics. Tick the Su-34 and the Su-30 comes with it automatically, in the right order. It flies
+on the Su-33's flight model, so flying it needs the Su-33 from Flaming Cliffs 3.
+
+It carries our fixes. It is renamed Su-34_RFF, so that its own weapons, ELINT pod and flight
+tuning are used instead of those of the Su-34 built into DCS, and its cockpit, electrics and
+radar warning receiver are fixed to work with that.
 
 ### The Rafale
 
