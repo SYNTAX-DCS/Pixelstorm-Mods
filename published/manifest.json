@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "packVersion": "1.0.0",
-  "publishedUtc": "2026-09-22T21:31:59.8541253Z",
-  "baseUrl": "https://github.com/SYNTAX-DCS/Pixelstorm-Mods/releases/download/pack-1.0.0",
+  "packVersion": "1.1.0",
+  "publishedUtc": "2026-09-24T13:04:03.9164844Z",
+  "baseUrl": "https://github.com/SYNTAX-DCS/Pixelstorm-Mods/releases/download/pack-1.1.0",
   "mods": [
     {
       "id": "su-30-flankerex",
@@ -19,23 +19,24 @@
       "files": 909,
       "parts": [
         {
-          "name": "su-30-flankerex-1.0.0.zip.part01",
+          "name": "su-30-flankerex-1.1.0.zip.part01",
           "bytes": 1610612736,
           "sha256": "b73f0695dd9d4e55c43342ce7a8e11f4e2c3935cc62b8132202fb331de5b9752"
         },
         {
-          "name": "su-30-flankerex-1.0.0.zip.part02",
+          "name": "su-30-flankerex-1.1.0.zip.part02",
           "bytes": 1610612736,
           "sha256": "ea566e9dc84db3b2a4b7d3a6c90da831ff9f90200dadeb946d9d87c3d695e132"
         },
         {
-          "name": "su-30-flankerex-1.0.0.zip.part03",
+          "name": "su-30-flankerex-1.1.0.zip.part03",
           "bytes": 523334117,
           "sha256": "0c10e7a291adab370573642eda3673b8fa6893dce0106d20f70ba407f069ed34"
         }
       ],
       "archiveSha256": "dc3b447ba62082995df70bc4c164fb2c232aab436ed18f37af0f31b0b4aedc95",
-      "downloadBytes": 3744559589
+      "downloadBytes": 3744559589,
+      "originals": {}
     },
     {
       "id": "su-34-rff",
@@ -54,13 +55,14 @@
       "files": 307,
       "parts": [
         {
-          "name": "su-34-rff-1.0.0.zip.part01",
+          "name": "su-34-rff-1.1.0.zip.part01",
           "bytes": 352228343,
           "sha256": "961b5b68b1da4a06e33d7d48c380fa091a39040fdff436acee90152235265af1"
         }
       ],
       "archiveSha256": "961b5b68b1da4a06e33d7d48c380fa091a39040fdff436acee90152235265af1",
-      "downloadBytes": 352228343
+      "downloadBytes": 352228343,
+      "originals": {}
     },
     {
       "id": "f-22a",
@@ -77,13 +79,14 @@
       "files": 303,
       "parts": [
         {
-          "name": "f-22a-1.0.0.zip.part01",
+          "name": "f-22a-1.1.0.zip.part01",
           "bytes": 1388891812,
           "sha256": "614047fd3592f8aa92137c547e2abba4bebeb30aaf77ab65bf30db3fc19bdb3d"
         }
       ],
       "archiveSha256": "614047fd3592f8aa92137c547e2abba4bebeb30aaf77ab65bf30db3fc19bdb3d",
-      "downloadBytes": 1388891812
+      "downloadBytes": 1388891812,
+      "originals": {}
     },
     {
       "id": "su-35s-efm",
@@ -100,18 +103,19 @@
       "files": 677,
       "parts": [
         {
-          "name": "su-35s-efm-1.0.0.zip.part01",
+          "name": "su-35s-efm-1.1.0.zip.part01",
           "bytes": 1610612736,
           "sha256": "c6cd289450ef3ea362e5c590afa999244f067f454bb1fcfa4e061aa59237012b"
         },
         {
-          "name": "su-35s-efm-1.0.0.zip.part02",
+          "name": "su-35s-efm-1.1.0.zip.part02",
           "bytes": 188590560,
           "sha256": "8130020331286594ed1221a862c69e3973f4a8bd0b6afed45a61fe1e8c83cb35"
         }
       ],
       "archiveSha256": "3e0eafde587dbce7b186356c6fbffda492a6dea6483c43da22c7c548facc5d64",
-      "downloadBytes": 1799203296
+      "downloadBytes": 1799203296,
+      "originals": {}
     },
     {
       "id": "a400m-fr3d",
@@ -128,13 +132,90 @@
       "files": 91,
       "parts": [
         {
-          "name": "a400m-fr3d-1.0.0.zip.part01",
+          "name": "a400m-fr3d-1.1.0.zip.part01",
           "bytes": 209231052,
           "sha256": "bd52a4d0ec6cbf74a8d8735856a0fb8d37c9426f6e433170ed55ee8b7d6e452d"
         }
       ],
       "archiveSha256": "bd52a4d0ec6cbf74a8d8735856a0fb8d37c9426f6e433170ed55ee8b7d6e452d",
-      "downloadBytes": 209231052
+      "downloadBytes": 209231052,
+      "originals": {}
+    },
+    {
+      "id": "mrtt-phenix-fr3d",
+      "name": "A330 MRTT Phenix (tanker)",
+      "author": "FR-3D Studio",
+      "version": "1.10",
+      "summary": "Airbus A330 MRTT Phenix tanker, in a boom and a probe-and-drogue version. AI only.",
+      "targets": [
+        "Mods/aircraft/MRTT-Phenix-FR3D"
+      ],
+      "requires": [],
+      "selfId": "MRTT_Phenix_FR3D",
+      "bytes": 911281572,
+      "files": 121,
+      "parts": [
+        {
+          "name": "mrtt-phenix-fr3d-1.1.0.zip.part01",
+          "bytes": 126400854,
+          "sha256": "09ec469defc7711457fa629fb0f8cf9ee6988e813f268195fa24524aacff9663"
+        }
+      ],
+      "archiveSha256": "09ec469defc7711457fa629fb0f8cf9ee6988e813f268195fa24524aacff9663",
+      "downloadBytes": 126400854,
+      "originals": {}
+    },
+    {
+      "id": "rafale-fr3d",
+      "name": "Rafale B, C, M and BM",
+      "author": "FR-3D Studio",
+      "version": "0.1.50e",
+      "summary": "Four Rafales beside the stock Hornet, carrying ED\u0027s standard weapons. Everyone can see them; flying one needs the F/A-18C module.",
+      "targets": [
+        "Mods/aircraft/Rafale FR-3D",
+        "Mods/aircraft/Rafale FR-3D Player"
+      ],
+      "requires": [],
+      "selfId": "Rafale FR-3D Studio",
+      "bytes": 2558750105,
+      "files": 1482,
+      "parts": [
+        {
+          "name": "rafale-fr3d-1.1.0.zip.part01",
+          "bytes": 1387839283,
+          "sha256": "63df9d6e183c943f8db0692d5f2b449e4fecedcad16d1a65a955aa50ba3cf471"
+        }
+      ],
+      "archiveSha256": "63df9d6e183c943f8db0692d5f2b449e4fecedcad16d1a65a955aa50ba3cf471",
+      "downloadBytes": 1387839283,
+      "originals": {}
+    },
+    {
+      "id": "rafale-sounds",
+      "name": "Rafale engine sounds",
+      "author": "FR-3D Studio",
+      "version": "0.1.50e",
+      "summary": "Optional. FR-3D\u0027s M88 engine sound. It replaces DCS\u0027s shared jet sounds, so while on, other jets that use them (mostly AI) sound like a Rafale too. Off, the Rafale sounds like any other DCS jet.",
+      "targets": [
+        "Mods/aircraft/Rafale FR-3D Sounds"
+      ],
+      "requires": [
+        "rafale-fr3d"
+      ],
+      "selfId": "Rafale FR-3D Studio Sounds",
+      "bytes": 73316471,
+      "files": 51,
+      "parts": [
+        {
+          "name": "rafale-sounds-1.1.0.zip.part01",
+          "bytes": 67889764,
+          "sha256": "c9a4b0e47ccdd2f4df0c499ab69294bf891b96e9baece2169fa36b517f633e57"
+        }
+      ],
+      "archiveSha256": "c9a4b0e47ccdd2f4df0c499ab69294bf891b96e9baece2169fa36b517f633e57",
+      "downloadBytes": 67889764,
+      "originals": {}
     }
-  ]
+  ],
+  "skyProfile": ""
 }
