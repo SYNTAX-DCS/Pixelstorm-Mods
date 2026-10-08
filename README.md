@@ -53,7 +53,7 @@ only matters on a server that checks your files (see below).
 | A400M Atlas (tanker) | FR-3D Studio |
 | A330 MRTT Phenix (tanker) | FR-3D Studio |
 
-3,941 files, 13.04 GB once installed, 8.45 GB to download. You do not have to take all of
+4,088 files, 13.77 GB once installed, 9.07 GB to download. You do not have to take all of
 them; tick only the ones you want.
 
 **These aircraft are their authors' work, not ours.** They are packed here as their authors
@@ -62,15 +62,20 @@ changes. This app installs them and gets out of the way. If you fly one and enjo
 tell the person who made it. **Any author who would rather their mod was not distributed here
 only has to say so and it comes out of the pack.**
 
+The Su-35S needs Su-30 FlankerEx alongside it too, for part of its avionics. Tick the Su-35S and
+the Su-30 comes with it automatically.
+
 ### The Su-34
 
 Su-34 Red Flag Fighters needs Su-30 FlankerEx alongside it for its textures and part of its
 avionics. Tick the Su-34 and the Su-30 comes with it automatically, in the right order. It flies
 on the Su-33's flight model, so flying it needs the Su-33 from Flaming Cliffs 3.
 
-It carries our fixes. It is renamed Su-34_RFF, so that its own weapons, ELINT pod and flight
-tuning are used instead of those of the Su-34 built into DCS, and its cockpit, electrics and
-radar warning receiver are fixed to work with that.
+It carries our fixes and comes as two aircraft. The Su-34 (AG) is the ground-attack version, with
+the ELINT pod. The Su-34 (AA) uses the Su-33's avionics instead, for air-to-air radar modes and
+helmet-aimed IR missiles. Both are renamed from the Su-34 built into DCS, so that their own
+weapons and flight tuning are used, and their cockpit, electrics and radar warning receiver are
+fixed to work with that.
 
 ### The Rafale
 
