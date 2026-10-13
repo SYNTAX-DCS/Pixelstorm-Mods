@@ -52,13 +52,15 @@ only matters on a server that checks your files (see below).
 | Rafale engine sounds (optional) | FR-3D Studio |
 | A400M Atlas (tanker) | FR-3D Studio |
 | A330 MRTT Phenix (tanker) | FR-3D Studio |
+| Super Hornet and Growler, downloaded from CJS (see below) | Chiller Juice Studios |
 
 4,088 files, 13.77 GB once installed, 9.07 GB to download. You do not have to take all of
 them; tick only the ones you want.
 
 **These aircraft are their authors' work, not ours.** They are packed here as their authors
 shipped them, with two exceptions described below: the Su-34 and the Rafale both carry our
-changes. This app installs them and gets out of the way. If you fly one and enjoy it, go and
+changes. The Super Hornet is not packed here at all; you download it from its makers. This app
+installs them and gets out of the way. If you fly one and enjoy it, go and
 tell the person who made it. **Any author who would rather their mod was not distributed here
 only has to say so and it comes out of the pack.**
 
@@ -93,6 +95,27 @@ alone:
   too.
 - A few fixes for this setup: the joystick bindings, some cockpit textures, and where the ATFLIR
   pod hangs.
+
+### The Super Hornet
+
+The CJS Super Hornet is not in the pack. Chiller Juice Studios hand it out themselves and ask
+that nobody else does, so none of it ever comes from us.
+
+The app still lists it, as **Super Hornet and Growler (CJS)**: the F/A-18E, the F/A-18F and the
+EA-18G. Tick it and press Apply, and a window lists the files to download. At the moment that is
+CJS's 2.4.6 release (about 1 GB) and the 12 KB hotfix that goes over it, which CJS post on their
+Discord. Each has a button that opens the page to get it from. Download them as you would
+anything else. The app watches your
+Downloads folder, checks each file is the exact one on its list, and then installs the Super
+Hornet by itself. From then on it switches on and off, and goes with Disable All, like every
+other mod here. Your downloads stay where they are, untouched.
+
+When CJS put out a newer build, the app takes only the build on its list until the list
+catches up.
+
+Already installed it yourself? The app finds your copy. Right-click the row to let it manage it.
+
+Flying one needs the F/A-18C module.
 
 ---
 
