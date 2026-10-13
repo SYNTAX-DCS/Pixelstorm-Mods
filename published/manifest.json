@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "packVersion": "1.2.0",
-  "publishedUtc": "2026-10-08T10:12:37.7984461Z",
+  "packVersion": "1.3.0",
+  "publishedUtc": "2026-10-13T15:38:28.8552616Z",
   "baseUrl": "https://github.com/SYNTAX-DCS/Pixelstorm-Mods/releases/download/pack-1.2.0",
   "mods": [
     {
@@ -36,7 +36,8 @@
       ],
       "archiveSha256": "8496ed30609decd455fc3513cf1cdde2fdd3561b28a8918c14b566f0ec7317c6",
       "downloadBytes": 3744560296,
-      "originals": {}
+      "originals": {},
+      "fromAuthor": []
     },
     {
       "id": "su-34-rff",
@@ -62,7 +63,8 @@
       ],
       "archiveSha256": "c2dbdf8a306e330014aafdbbf165b85f0a87e247777efe9142263fe7f9b7733f",
       "downloadBytes": 470681150,
-      "originals": {}
+      "originals": {},
+      "fromAuthor": []
     },
     {
       "id": "f-22a",
@@ -86,7 +88,8 @@
       ],
       "archiveSha256": "614047fd3592f8aa92137c547e2abba4bebeb30aaf77ab65bf30db3fc19bdb3d",
       "downloadBytes": 1388891812,
-      "originals": {}
+      "originals": {},
+      "fromAuthor": []
     },
     {
       "id": "su-35s-efm",
@@ -117,7 +120,8 @@
       ],
       "archiveSha256": "f5fc26bf8f0e68ba384b58ff0ce3a62be1d8248a79b66577f774b65689b406f8",
       "downloadBytes": 2343612669,
-      "originals": {}
+      "originals": {},
+      "fromAuthor": []
     },
     {
       "id": "a400m-fr3d",
@@ -141,7 +145,8 @@
       ],
       "archiveSha256": "bd52a4d0ec6cbf74a8d8735856a0fb8d37c9426f6e433170ed55ee8b7d6e452d",
       "downloadBytes": 209231052,
-      "originals": {}
+      "originals": {},
+      "fromAuthor": []
     },
     {
       "id": "mrtt-phenix-fr3d",
@@ -165,7 +170,8 @@
       ],
       "archiveSha256": "09ec469defc7711457fa629fb0f8cf9ee6988e813f268195fa24524aacff9663",
       "downloadBytes": 126400854,
-      "originals": {}
+      "originals": {},
+      "fromAuthor": []
     },
     {
       "id": "rafale-fr3d",
@@ -190,7 +196,8 @@
       ],
       "archiveSha256": "63df9d6e183c943f8db0692d5f2b449e4fecedcad16d1a65a955aa50ba3cf471",
       "downloadBytes": 1387839283,
-      "originals": {}
+      "originals": {},
+      "fromAuthor": []
     },
     {
       "id": "rafale-sounds",
@@ -216,7 +223,49 @@
       ],
       "archiveSha256": "c9a4b0e47ccdd2f4df0c499ab69294bf891b96e9baece2169fa36b517f633e57",
       "downloadBytes": 67889764,
-      "originals": {}
+      "originals": {},
+      "fromAuthor": []
+    },
+    {
+      "id": "cjs-super-hornet",
+      "name": "Super Hornet and Growler (CJS)",
+      "author": "Chiller Juice Studios",
+      "version": "2.4.6 \u002B hotfix",
+      "summary": "F/A-18E and F/A-18F Super Hornets and the EA-18G Growler. Its makers, CJS, hand it out themselves, so the app shows you where to download it and installs it from there. Flying one needs the F/A-18C module.",
+      "targets": [
+        "Mods/aircraft/CJS Super Hornet Mod v2.4 Core Module",
+        "Mods/aircraft/CJS Super Hornet Mod v2.4 Player Module"
+      ],
+      "requires": [],
+      "selfId": "CJS Super Hornets",
+      "bytes": 3165928721,
+      "files": 933,
+      "parts": [],
+      "archiveSha256": "07ff818f0e525aed0c6e72b90f24f34ae6c88633aea25a8e0d324c034082fa36",
+      "downloadBytes": 0,
+      "originals": {},
+      "fromAuthor": [
+        {
+          "name": "CJS Super Hornet Package v2.4.6.260726.RC1 (1).rar",
+          "page": "https://www.mediafire.com/file/vlylggw8ari0okl/",
+          "bytes": 1078168023,
+          "sha256": "4df67a8c3212da23c032b13252cea6e9fb5ca80b15852681d3c04e13bc978628",
+          "folders": {
+            "CJS Super Hornet Mod v2.4 Core Module": "Mods/aircraft/CJS Super Hornet Mod v2.4 Core Module",
+            "CJS Super Hornet Mod v2.4 Player Module": "Mods/aircraft/CJS Super Hornet Mod v2.4 Player Module"
+          }
+        },
+        {
+          "name": "CJS_SuperHornet_Hotfix_DCS_2.9.29.27278.zip",
+          "page": "https://discord.gg/mAtXt8YrAt",
+          "bytes": 12335,
+          "sha256": "5b7b8c375221ef7339e8a6bc2444149e54cacaaef6c135686c2090fd7cc53a88",
+          "folders": {
+            "CJS Super Hornet Mod v2.4 Core Module": "Mods/aircraft/CJS Super Hornet Mod v2.4 Core Module",
+            "CJS Super Hornet Mod v2.4 Player Module": "Mods/aircraft/CJS Super Hornet Mod v2.4 Player Module"
+          }
+        }
+      ]
     }
   ],
   "skyProfile": ""
