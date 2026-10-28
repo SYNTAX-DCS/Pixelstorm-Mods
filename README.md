@@ -52,16 +52,18 @@ only matters on a server that checks your files (see below).
 | Rafale engine sounds (optional) | FR-3D Studio |
 | A400M Atlas (tanker) | FR-3D Studio |
 | A330 MRTT Phenix (tanker) | FR-3D Studio |
+| Su-22M4 | VinntoreZ |
 | Super Hornet and Growler, downloaded from CJS (see below) | Chiller Juice Studios |
+| UH-60L Black Hawk, downloaded from Kinkku (see below) | Kinkku |
 
-4,088 files, 13.77 GB once installed, 9.07 GB to download. You do not have to take all of
-them; tick only the ones you want.
+The packed aircraft come to 4,884 files, 17.34 GB once installed, 10.89 GB to download. You do
+not have to take all of them; tick only the ones you want.
 
 **These aircraft are their authors' work, not ours.** They are packed here as their authors
-shipped them, with two exceptions described below: the Su-34 and the Rafale both carry our
-changes. The Super Hornet is not packed here at all; you download it from its makers. This app
-installs them and gets out of the way. If you fly one and enjoy it, go and
-tell the person who made it. **Any author who would rather their mod was not distributed here
+shipped them, with three exceptions described below: the Su-34 and the Rafale both carry our
+changes, and the Su-22M4 has one folder taken out. The Super Hornet and the UH-60L are not packed
+here at all; they come from their makers. This app installs them and gets out of the way. If you
+fly one and enjoy it, go and tell the person who made it. **Any author who would rather their mod was not distributed here
 only has to say so and it comes out of the pack.**
 
 The Su-35S needs Su-30 FlankerEx alongside it too, for part of its avionics. Tick the Su-35S and
@@ -96,6 +98,19 @@ alone:
 - A few fixes for this setup: the joystick bindings, some cockpit textures, and where the ATFLIR
   pod hangs.
 
+### The Su-22M4
+
+VinntoreZ's Su-22M4 is packed here with VinntoreZ's permission, with one folder taken out. The mod
+carries 45 silent sound files in `Sounds\Speech`, and DCS loads a mod's sounds for every aircraft,
+so they would mute DCS's English cockpit warnings ("Pull up", "Missile", "Bingo", "Gear down") in
+other jets too. Without them the Su-22M4 uses the Su-27's warnings.
+
+It flies on the Su-27's flight model, so flying it needs the Su-27, from Flaming Cliffs 3 or the
+standalone module.
+
+Installed it yourself from VinntoreZ's download? Your copy still has that `Sounds\Speech` folder.
+Delete it, or remove your copy and let the app install the Su-22M4 for you.
+
 ### The Super Hornet
 
 The CJS Super Hornet is not in the pack. Chiller Juice Studios hand it out themselves and ask
@@ -117,6 +132,24 @@ Already installed it yourself? The app finds your copy. Right-click the row to l
 
 Flying one needs the F/A-18C module.
 
+### The UH-60L
+
+Kinkku's UH-60L Black Hawk is not in the pack either. Kinkku shares it through a Patreon post
+(https://www.patreon.com/posts/uh60l-mod-2-0-138859868), and Kinkku's own installer downloads it
+from a GitHub release. This app does the same. Tick **UH-60L Black Hawk** and press Apply, and it
+downloads that same 1.4 GB file from Kinkku's release, checks it is the exact one on its list,
+and switches it on like any other mod here. Nothing of it comes from us.
+
+That gives you the UH-60L and the armed UH-60L DAP, version 2.1.5. It has its own flight model,
+so it needs no module to fly. Its AI door gunners need a small script, bhHook.lua, in
+`Saved Games\DCS\Scripts\Hooks`. The app puts it there with the aircraft and takes it out again
+with it, Disable All included, and never writes over one it did not put there.
+
+Already installed it with Kinkku's installer? The app finds your copy. Right-click the row to let
+it manage it.
+
+If you fly it and enjoy it, Kinkku's Patreon post is the place to say so.
+
 ---
 
 ## What it does to your DCS
@@ -124,6 +157,9 @@ Flying one needs the F/A-18C module.
 Most mods are aircraft, and they go in `Saved Games\DCS\Mods` as folders of their own.
 Switching one off moves its folder to a parked area inside your DCS write directory, where
 DCS does not look. That is why switching back on is instant.
+
+The UH-60L adds one file outside its folder: bhHook.lua in `Saved Games\DCS\Scripts\Hooks`, for
+its door gunners. It moves in and out with the aircraft the same way.
 
 When the pack carries a newer build of a mod you already have, its row turns amber, and Apply
 swaps the old build for the new one. A mod that did not change is never downloaded again.
