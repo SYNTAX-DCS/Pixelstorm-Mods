@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "packVersion": "1.3.0",
-  "publishedUtc": "2026-10-13T15:38:28.8552616Z",
+  "packVersion": "1.4.0",
+  "publishedUtc": "2026-11-03T11:10:29.4010582Z",
   "baseUrl": "https://github.com/SYNTAX-DCS/Pixelstorm-Mods/releases/download/pack-1.2.0",
   "mods": [
     {
@@ -248,6 +248,7 @@
         {
           "name": "CJS Super Hornet Package v2.4.6.260726.RC1 (1).rar",
           "page": "https://www.mediafire.com/file/vlylggw8ari0okl/",
+          "url": "",
           "bytes": 1078168023,
           "sha256": "4df67a8c3212da23c032b13252cea6e9fb5ca80b15852681d3c04e13bc978628",
           "folders": {
@@ -258,6 +259,7 @@
         {
           "name": "CJS_SuperHornet_Hotfix_DCS_2.9.29.27278.zip",
           "page": "https://discord.gg/mAtXt8YrAt",
+          "url": "",
           "bytes": 12335,
           "sha256": "5b7b8c375221ef7339e8a6bc2444149e54cacaaef6c135686c2090fd7cc53a88",
           "folders": {
@@ -266,6 +268,68 @@
           }
         }
       ]
+    },
+    {
+      "id": "uh60l",
+      "name": "UH-60L Black Hawk",
+      "author": "Kinkku",
+      "version": "2.1.5",
+      "summary": "Kinkku\u0027s UH-60L Black Hawk and the armed UH-60L DAP, with AI door gunners. The app downloads it from Kinkku\u0027s own release. No module needed to fly it.",
+      "targets": [
+        "Mods/aircraft/uh60l",
+        "Scripts/Hooks/bhHook.lua"
+      ],
+      "requires": [],
+      "selfId": "UH-60L",
+      "bytes": 1731191328,
+      "files": 555,
+      "parts": [],
+      "archiveSha256": "68a283819daec510a7e8212519ffa7e346ffa731ea9ffa4e7483c7841ff5b4e5",
+      "downloadBytes": 1502262846,
+      "originals": {},
+      "fromAuthor": [
+        {
+          "name": "uh60l.zip",
+          "page": "https://www.patreon.com/posts/uh60l-mod-2-0-138859868",
+          "url": "https://github.com/KinkkuChairborne/ubiquitous-octo-giggle/releases/download/1.5/uh60l.zip",
+          "bytes": 1502262846,
+          "sha256": "546570000a601e67cade4107c0ccf121e92019a480be09ff875f0bf0ce1d19f0",
+          "folders": {
+            "uh60l": "Mods/aircraft/uh60l",
+            "uh60l/ScriptHook/bhHook.lua": "Scripts/Hooks/bhHook.lua"
+          }
+        }
+      ]
+    },
+    {
+      "id": "su-22m4",
+      "name": "Su-22M4",
+      "author": "VinntoreZ",
+      "version": "1.0",
+      "summary": "VinntoreZ\u0027s Su-22M4 attack jet. The pack\u0027s copy leaves out a set of silent sound files that would mute DCS\u0027s English cockpit warnings in other aircraft. Flying it needs the Su-27 (Flaming Cliffs 3 or the standalone module).",
+      "targets": [
+        "Mods/aircraft/Su-22M4"
+      ],
+      "requires": [],
+      "selfId": "SU22",
+      "bytes": 3828787811,
+      "files": 796,
+      "parts": [
+        {
+          "name": "su-22m4-1.4.0.zip.part01",
+          "bytes": 1610612736,
+          "sha256": "20b2781a17dcc5794d4da153098927599f9e8a1e8a2c63cee06002f10d1591a9"
+        },
+        {
+          "name": "su-22m4-1.4.0.zip.part02",
+          "bytes": 340448401,
+          "sha256": "07588ea74119c22b4650b3ed0b7cef13443bdfc22217253ef66c540d1e6cc325"
+        }
+      ],
+      "archiveSha256": "c67c86117fcc10eba5c29944e3030baf52d5c3e1fbe9762cd464d651a6b6ab5c",
+      "downloadBytes": 1951061137,
+      "originals": {},
+      "fromAuthor": []
     }
   ],
   "skyProfile": ""
