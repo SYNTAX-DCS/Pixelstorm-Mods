@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "packVersion": "1.5.0",
-  "publishedUtc": "2026-11-04T06:48:55.2019497Z",
+  "packVersion": "1.5.1",
+  "publishedUtc": "2026-11-04T14:42:23.0840041Z",
   "baseUrl": "https://github.com/SYNTAX-DCS/Pixelstorm-Mods/releases/download/pack-1.2.0",
   "mods": [
     {
@@ -335,7 +335,7 @@
       "id": "f-16i-sufa",
       "name": "F-16I Sufa (DCMii)",
       "author": "DCMii",
-      "version": "4.0.0",
+      "version": "4.0.0 \u002B fix 1104",
       "summary": "DCMii\u0027s F-16I Sufa, with six F-16D two-seaters including the Barak. The pack\u0027s copy leaves out DCMii\u0027s changes to the standard F-16C, so the stock Viper stays as ED made it. It goes into your DCS installation, so press Disable All before you join a server that checks your files. Flying one needs the F-16C module.",
       "targets": [
         "Install/CoreMods/aircraft/F-16C",
@@ -343,32 +343,32 @@
       ],
       "requires": [],
       "selfId": "",
-      "bytes": 6666995757,
-      "files": 2085,
+      "bytes": 6667011733,
+      "files": 2086,
       "parts": [
         {
-          "name": "f-16i-sufa-1.5.0.zip.part01",
+          "name": "f-16i-sufa-1.5.1.zip.part01",
           "bytes": 1610612736,
-          "sha256": "55030b7735e1cccc3ac055aa5b744c40e63480251bb7e47ada072a363ec4f5e6"
+          "sha256": "3ce0c10b29aa6f3ff5d371bbf97e44936849ed73db844ef3be82c8092d69558b"
         },
         {
-          "name": "f-16i-sufa-1.5.0.zip.part02",
+          "name": "f-16i-sufa-1.5.1.zip.part02",
           "bytes": 1610612736,
-          "sha256": "2b582c110fccbe6475fd1806af650fa6884f917a6496071732c7557359027217"
+          "sha256": "3aa16b31aecc769ba954c42a7bd4be38055abfbea417e56622158080e4c2918e"
         },
         {
-          "name": "f-16i-sufa-1.5.0.zip.part03",
+          "name": "f-16i-sufa-1.5.1.zip.part03",
           "bytes": 1610612736,
-          "sha256": "63de30a39907e82ebf53b9530f044e1d081a978a30fc150f18631dac3f8ed3f9"
+          "sha256": "f1fed5286d28b023ad0505af2c38d6a73c9757e9f858ba9bc24b98250b6099db"
         },
         {
-          "name": "f-16i-sufa-1.5.0.zip.part04",
-          "bytes": 1315789354,
-          "sha256": "3dfcc6709330bb6c7cec73f9a6c3ed069ad9f082d38189b0d03918e49556eb15"
+          "name": "f-16i-sufa-1.5.1.zip.part04",
+          "bytes": 1315793036,
+          "sha256": "dbe9df79d0d77a662815a1a66dbbb666d383e5c9ba9d6f03138fffe133d52613"
         }
       ],
-      "archiveSha256": "5bc98da553cdaa9846ab29825834fd46a991b28e05d20b60fde3fe1230529e25",
-      "downloadBytes": 6147627562,
+      "archiveSha256": "b56092e7949d94f0ee26a8156625ff03044c161a585bdc0017abc3a2cf15351b",
+      "downloadBytes": 6147631244,
       "originals": {
         "CoreMods/aircraft/F-16C/entry.lua": "dbe9622fe96baeda5ce9d676999ea57e97df9ad562b0f75ec666d47d484bd62c",
         "Mods/aircraft/F-16C/entry.lua": "32b6a51f7a3a72a0a5c1a612d81a4681b177ac5d47b35bd384a6c69a5aedd960"

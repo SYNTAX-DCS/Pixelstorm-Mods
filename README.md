@@ -57,7 +57,7 @@ only matters on a server that checks your files (see below).
 | Super Hornet and Growler, downloaded from CJS (see below) | Chiller Juice Studios |
 | UH-60L Black Hawk, downloaded from Kinkku (see below) | Kinkku |
 
-The packed aircraft come to 6,969 files, 23.55 GB once installed, 16.61 GB to download. You do
+The packed aircraft come to 6,970 files, 23.55 GB once installed, 16.61 GB to download. You do
 not have to take all of them; tick only the ones you want.
 
 **These aircraft are their authors' work, not ours.** They are packed here as their authors
@@ -125,7 +125,8 @@ how the new aircraft get added. If DCS is in `C:\Program Files`, Windows asks fo
 when you press Apply. Disable All puts ED's two files back. While it is on, a server that checks your files can refuse you
 (see below).
 
-The pack's copy is DCMii's 4.0.0 with these differences:
+The pack's copy is DCMii's 4.0.0 plus the fix DCMii sent on 4 November, which adds HUD and
+helmet symbols the Sufa was missing. It has these differences:
 
 - DCMii's rework of the standard F-16C is left out, its cockpit and exterior model included, so
   a stock F-16C stays as ED made it.
