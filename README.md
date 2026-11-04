@@ -53,15 +53,17 @@ only matters on a server that checks your files (see below).
 | A400M Atlas (tanker) | FR-3D Studio |
 | A330 MRTT Phenix (tanker) | FR-3D Studio |
 | Su-22M4 | VinntoreZ |
+| F-16I Sufa and six F-16D two-seaters | DCMii |
 | Super Hornet and Growler, downloaded from CJS (see below) | Chiller Juice Studios |
 | UH-60L Black Hawk, downloaded from Kinkku (see below) | Kinkku |
 
-The packed aircraft come to 4,884 files, 17.34 GB once installed, 10.89 GB to download. You do
+The packed aircraft come to 6,969 files, 23.55 GB once installed, 16.61 GB to download. You do
 not have to take all of them; tick only the ones you want.
 
 **These aircraft are their authors' work, not ours.** They are packed here as their authors
-shipped them, with three exceptions described below: the Su-34 and the Rafale both carry our
-changes, and the Su-22M4 has one folder taken out. The Super Hornet and the UH-60L are not packed
+shipped them, with four exceptions described below: the Su-34 and the Rafale both carry our
+changes, the Su-22M4 has one folder taken out, and the F-16I Sufa leaves out some of DCMii's
+files and renames a few others. The Super Hornet and the UH-60L are not packed
 here at all; they come from their makers. This app installs them and gets out of the way. If you
 fly one and enjoy it, go and tell the person who made it. **Any author who would rather their mod was not distributed here
 only has to say so and it comes out of the pack.**
@@ -110,6 +112,33 @@ standalone module.
 
 Installed it yourself from VinntoreZ's download? Your copy still has that `Sounds\Speech` folder.
 Delete it, or remove your copy and let the app install the Su-22M4 for you.
+
+### The F-16I Sufa
+
+DCMii's F-16I Sufa is packed here with DCMii's permission. Six F-16D two-seaters come with it:
+the Block 50 and 52, each with and without the spine, and the Barak 30 and 40. Flying any of
+them needs the F-16C module.
+
+The Sufa is built on ED's F-16C, so unlike the other aircraft here it goes into your DCS
+installation. It replaces two of ED's files there, the F-16C's two `entry.lua` files, which is
+how the new aircraft get added. If DCS is in `C:\Program Files`, Windows asks for permission
+when you press Apply. Disable All puts ED's two files back. While it is on, a server that checks your files can refuse you
+(see below).
+
+The pack's copy is DCMii's 4.0.0 with these differences:
+
+- DCMii's rework of the standard F-16C is left out, its cockpit and exterior model included, so
+  a stock F-16C stays as ED made it.
+- The crew sync for two pilots in one jet is left out, because it replaces one of DCS's own
+  multiplayer scripts, and so is the rear-seat HUD repeater, which is a DLL. The pack's copy is
+  for one pilot per jet.
+- DCMii's optional add-ons are left out: SPICE-2000, AGM-154B, Python-5, the AN/AAQ-33 pod and
+  the PW-229 engine sounds.
+- Nine cockpit textures are renamed and two fuel tank textures are left out. They had the same
+  names as DCS's own, so they could repaint the stock F-16C's cockpit and fuel tanks.
+
+Already have DCMii's own download installed? You can keep flying that on Pixelstorm, so you do
+not need this one as well.
 
 ### The Super Hornet
 
@@ -164,7 +193,8 @@ its door gunners. It moves in and out with the aircraft the same way.
 When the pack carries a newer build of a mod you already have, its row turns amber, and Apply
 swaps the old build for the new one. A mod that did not change is never downloaded again.
 
-Some mods change files inside your DCS installation, the program folder itself. Pixelstorm runs
+Some mods change files inside your DCS installation, the program folder itself, and the F-16I
+Sufa is one of them. Pixelstorm runs
 with file checks off, so that is fine there. Before such a mod replaces a file, the app keeps a
 copy of yours, and Disable All puts each one back.
 
