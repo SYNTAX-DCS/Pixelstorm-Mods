@@ -56,7 +56,7 @@ only matters on a server that checks your files (see below).
 | F-16I Sufa and six F-16D two-seaters | DCMii |
 | Super Hornet and Growler, downloaded from CJS (see below) | Chiller Juice Studios |
 | UH-60L Black Hawk, downloaded from Kinkku (see below) | Kinkku |
-| GBU-39 SDB bomb, downloaded from Haack (see below; Pixelstorm needs it) | Haack |
+| GBU-39 SDB bomb, downloaded from Haack (see below; Pixelstorm needs it, Modern F-15E users skip it) | Haack |
 
 The packed aircraft come to 6,970 files, 23.55 GB once installed, 16.61 GB to download. You do
 not have to take all of them; tick only the ones you want.
@@ -183,16 +183,18 @@ If you fly it and enjoy it, Kinkku's Patreon post is the place to say so.
 
 ### The GBU-39 SDB
 
-Haack's GBU-39 Small Diameter Bomb and its BRU-61 rack. Pixelstorm needs it: the server turns
-away anyone who doesn't have it at the join screen. Haack hands it out on the Modern F-15E 2.4.0
-release (https://github.com/65thhaack/Modern-F15E-Mod/releases/tag/v2.4.0) for servers and for
-players without Modern F-15E. Tick **GBU-39 SDB (Haack)** and press Apply, and the app downloads
-that 6 MB file from Haack's release, checks it is the exact one on its list, and puts it in
-`Saved Games\DCS\Mods\tech`. Nothing of it comes from us.
+**If you run Modern F-15E, leave this one unticked.** Modern F-15E already loads the SDBs, and
+with this installed as well they load twice and show up on the racks as giant bombs.
 
-Dropping SDBs needs Modern F-15E, and if you run it you already have this: its own installer puts
-the same folder there, and the app leaves a folder it did not put there alone. Everyone else needs
-it so they can join Pixelstorm and see the bombs.
+Everyone else needs it: Pixelstorm turns away anyone who doesn't have it at the join screen. It
+is Haack's GBU-39 Small Diameter Bomb and its BRU-61 rack, which Haack hands out on the Modern
+F-15E 2.4.1 release (https://github.com/65thhaack/Modern-F15E-Mod/releases/tag/v2.4.1) for
+servers and for players without Modern F-15E. Tick **GBU-39 SDB (Haack)** and press Apply, and
+the app downloads that 6 MB file from Haack's release, checks it is the exact one on its list,
+and puts it in `Saved Games\DCS\Mods\tech`. Nothing of it comes from us. It lets you join and see
+the bombs; dropping them needs Modern F-15E.
+
+Installed it already and then picked up Modern F-15E? Untick it here and press Apply.
 
 ---
 

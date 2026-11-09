@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "packVersion": "1.5.2",
-  "publishedUtc": "2026-11-09T20:45:53.7923194Z",
+  "packVersion": "1.5.3",
+  "publishedUtc": "2026-11-09T22:38:26.5225006Z",
   "baseUrl": "https://github.com/SYNTAX-DCS/Pixelstorm-Mods/releases/download/pack-1.2.0",
   "mods": [
     {
@@ -379,26 +379,26 @@
       "id": "modern-f15e-sdb",
       "name": "GBU-39 SDB (Haack)",
       "author": "Haack",
-      "version": "2.4.0",
-      "summary": "Haack\u0027s GBU-39 Small Diameter Bomb and BRU-61 rack. Pixelstorm needs it: without it the server turns you away at the join screen. Dropping SDBs needs Modern F-15E, which installs this for you. The app downloads it from Haack\u0027s own release.",
+      "version": "2.4.1",
+      "summary": "Don\u0027t tick this if you run Modern F-15E: it already loads the SDBs, and installing both gives you giant bombs. Everyone else needs it for Pixelstorm, which turns you away at the join screen without it. Haack\u0027s GBU-39 Small Diameter Bomb and BRU-61 rack, downloaded from Haack\u0027s own release.",
       "targets": [
         "Mods/tech/ModernF15E_SDB"
       ],
       "requires": [],
       "selfId": "ModernF15E SDB",
-      "bytes": 11286357,
+      "bytes": 11286792,
       "files": 17,
       "parts": [],
-      "archiveSha256": "59ade6c69c11221d228a742873cfa918b19affc226c3598f9d96025efbd5500e",
-      "downloadBytes": 5804916,
+      "archiveSha256": "1c14e40b2f00b4925dd496c54a6b572149f0073be4f07af567a79fca623f9f21",
+      "downloadBytes": 5805058,
       "originals": {},
       "fromAuthor": [
         {
           "name": "ModernF15E-SDB.zip",
-          "page": "https://github.com/65thhaack/Modern-F15E-Mod/releases/tag/v2.4.0",
-          "url": "https://github.com/65thhaack/Modern-F15E-Mod/releases/download/v2.4.0/ModernF15E-SDB.zip",
-          "bytes": 5804916,
-          "sha256": "f7d18e7cc075321fdfecf184983d30170de4a2f1e5052eac1250482948efc3a0",
+          "page": "https://github.com/65thhaack/Modern-F15E-Mod/releases/tag/v2.4.1",
+          "url": "https://github.com/65thhaack/Modern-F15E-Mod/releases/download/v2.4.1/ModernF15E-SDB.zip",
+          "bytes": 5805058,
+          "sha256": "8733726787b6b4da221d10131c62ddd043a918a974829001e0e38e2ea1c55697",
           "folders": {
             "ModernF15E-SDB/Mods/tech/ModernF15E_SDB": "Mods/tech/ModernF15E_SDB"
           }
