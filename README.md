@@ -188,11 +188,14 @@ with this installed as well they load twice and show up on the racks as giant bo
 
 Everyone else needs it: Pixelstorm turns away anyone who doesn't have it at the join screen. It
 is Haack's GBU-39 Small Diameter Bomb and its BRU-61 rack, which Haack hands out on the Modern
-F-15E 2.4.1 release (https://github.com/65thhaack/Modern-F15E-Mod/releases/tag/v2.4.1) for
+F-15E 2.4.4 release (https://github.com/65thhaack/Modern-F15E-Mod/releases/tag/v2.4.4) for
 servers and for players without Modern F-15E. Tick **GBU-39 SDB (Haack)** and press Apply, and
 the app downloads that 6 MB file from Haack's release, checks it is the exact one on its list,
 and puts it in `Saved Games\DCS\Mods\tech`. Nothing of it comes from us. It lets you join and see
 the bombs; dropping them needs Modern F-15E.
+
+Haack keeps only his newest release online, so for a short while after a new one comes out the
+download can fail, until the list here catches up.
 
 Installed it already and then picked up Modern F-15E? Untick it here and press Apply.
 
