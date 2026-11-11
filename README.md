@@ -83,11 +83,15 @@ Su-34 Red Flag Fighters needs Su-30 FlankerEx alongside it for its textures and 
 avionics. Tick the Su-34 and the Su-30 comes with it automatically, in the right order. It flies
 on the Su-33's flight model, so flying it needs the Su-33 from Flaming Cliffs 3.
 
-It carries our fixes and comes as two aircraft. The Su-34 (AG) is the ground-attack version, with
-the ELINT pod. The Su-34 (AA) uses the Su-33's avionics instead, for air-to-air radar modes and
-helmet-aimed IR missiles. Both are renamed from the Su-34 built into DCS, so that their own
-weapons and flight tuning are used, and their cockpit, electrics and radar warning receiver are
-fixed to work with that.
+It's venesu30's Multirole version: one Su-34 that does air-to-air and ground attack together,
+with new MFD pages and mirrors, in place of the old Su-34 (AG) and Su-34 (AA). Thanks to
+venesu30, and to Dev and Zethus, who made the multirole version possible.
+
+venesu30's release names the aircraft after the Su-30MKM, which Su-30 FlankerEx already flies,
+so with both installed one would take over the other. The pack's copy renames it inside DCS, so
+the Su-34 and the Su-30MKM both work, and it doesn't need the Su-30 that comes with venesu30's
+download. If you installed that Su-30 yourself, remove it: the pack's Su-30 FlankerEx is the
+one to use.
 
 ### The Rafale
 
@@ -131,8 +135,8 @@ how the new aircraft get added. If DCS is in `C:\Program Files`, Windows asks fo
 when you press Apply. Disable All puts ED's two files back. While it is on, a server that checks your files can refuse you
 (see below).
 
-The pack's copy is DCMii's 4.0.0 plus the fix DCMii sent on 4 November, which adds HUD and
-helmet symbols the Sufa was missing. It has these differences:
+The pack's copy is DCMii's 4.1.0. All seven jets load DCS's own DTC cartridges, and they can
+carry DCS's own AN/AAQ-33 Sniper pod as well as the Litening. It has these differences:
 
 - DCMii's rework of the standard F-16C is left out, its cockpit and exterior model included, so
   a stock F-16C stays as ED made it.

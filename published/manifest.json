@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "packVersion": "1.5.5",
-  "publishedUtc": "2026-11-11T07:18:28.6549643Z",
+  "packVersion": "1.5.6",
+  "publishedUtc": "2026-11-11T11:03:00.4069238Z",
   "baseUrl": "https://github.com/SYNTAX-DCS/Pixelstorm-Mods/releases/download/pack-1.2.0",
   "mods": [
     {
@@ -43,8 +43,8 @@
       "id": "su-34-rff",
       "name": "Su-34 Red Flag Fighters",
       "author": "awentyy, alexey1111",
-      "version": "0.1.0 v5 (AG and AA)",
-      "summary": "Su-34 with our fixes, in two versions: the Su-34 (AG) for ground attack and the Su-34 (AA) with Su-33 radar modes for air-to-air. Needs the Su-30 FlankerEx mod alongside it, and flying it needs the Su-33 from Flaming Cliffs 3.",
+      "version": "0.1.0 Multirole",
+      "summary": "venesu30\u0027s Su-34 Multirole: one Su-34 with air-to-air and ground attack together, in place of the old Su-34 (AG) and (AA). Renamed inside DCS so it doesn\u0027t take over the Su-30MKM. Needs the Su-30 FlankerEx mod alongside it, and flying it needs the Su-33 from Flaming Cliffs 3.",
       "targets": [
         "Mods/aircraft/Su-34"
       ],
@@ -52,17 +52,17 @@
         "su-30-flankerex"
       ],
       "selfId": "Su-34",
-      "bytes": 910002806,
-      "files": 335,
+      "bytes": 2421385360,
+      "files": 445,
       "parts": [
         {
-          "name": "su-34-rff-1.2.0.zip.part01",
-          "bytes": 470681150,
-          "sha256": "c2dbdf8a306e330014aafdbbf165b85f0a87e247777efe9142263fe7f9b7733f"
+          "name": "su-34-rff-1.5.6.zip.part01",
+          "bytes": 1399151930,
+          "sha256": "725a22c1dda59b775e253598652d4a752305eda1edf1500d9c63bee6a05b3bed"
         }
       ],
-      "archiveSha256": "c2dbdf8a306e330014aafdbbf165b85f0a87e247777efe9142263fe7f9b7733f",
-      "downloadBytes": 470681150,
+      "archiveSha256": "725a22c1dda59b775e253598652d4a752305eda1edf1500d9c63bee6a05b3bed",
+      "downloadBytes": 1399151930,
       "originals": {},
       "fromAuthor": []
     },
@@ -335,40 +335,40 @@
       "id": "f-16i-sufa",
       "name": "F-16I Sufa (DCMii)",
       "author": "DCMii",
-      "version": "4.0.0 \u002B fix 1104",
-      "summary": "DCMii\u0027s F-16I Sufa, with six F-16D two-seaters including the Barak. The pack\u0027s copy leaves out DCMii\u0027s changes to the standard F-16C, so the stock Viper stays as ED made it. It goes into your DCS installation, so press Disable All before you join a server that checks your files. Flying one needs the F-16C module.",
+      "version": "4.1.0",
+      "summary": "DCMii\u0027s F-16I Sufa, with six F-16D two-seaters including the Barak, all with DCS\u0027s own DTC cartridges and the Sniper pod. The pack\u0027s copy leaves out DCMii\u0027s changes to the standard F-16C, so the stock Viper stays as ED made it. It goes into your DCS installation, so press Disable All before you join a server that checks your files. Flying one needs the F-16C module.",
       "targets": [
         "Install/CoreMods/aircraft/F-16C",
         "Install/Mods/aircraft/F-16C"
       ],
       "requires": [],
       "selfId": "",
-      "bytes": 6667011733,
-      "files": 2086,
+      "bytes": 6673178624,
+      "files": 2100,
       "parts": [
         {
-          "name": "f-16i-sufa-1.5.1.zip.part01",
+          "name": "f-16i-sufa-1.5.6.zip.part01",
           "bytes": 1610612736,
-          "sha256": "3ce0c10b29aa6f3ff5d371bbf97e44936849ed73db844ef3be82c8092d69558b"
+          "sha256": "bec8710e989862dbbc52c72f6970cb8dcbe1d66410c79db29c69c6493be1f865"
         },
         {
-          "name": "f-16i-sufa-1.5.1.zip.part02",
+          "name": "f-16i-sufa-1.5.6.zip.part02",
           "bytes": 1610612736,
-          "sha256": "3aa16b31aecc769ba954c42a7bd4be38055abfbea417e56622158080e4c2918e"
+          "sha256": "5fee65e57005c16c7d7435f388167ebbf0153d842c26c7ea1b58ba44c0579e9e"
         },
         {
-          "name": "f-16i-sufa-1.5.1.zip.part03",
+          "name": "f-16i-sufa-1.5.6.zip.part03",
           "bytes": 1610612736,
-          "sha256": "f1fed5286d28b023ad0505af2c38d6a73c9757e9f858ba9bc24b98250b6099db"
+          "sha256": "247bcc4f89370cdaa2a082cb3bc4590f000e769b938e7d9212996e5160889c69"
         },
         {
-          "name": "f-16i-sufa-1.5.1.zip.part04",
-          "bytes": 1315793036,
-          "sha256": "dbe9df79d0d77a662815a1a66dbbb666d383e5c9ba9d6f03138fffe133d52613"
+          "name": "f-16i-sufa-1.5.6.zip.part04",
+          "bytes": 1316041799,
+          "sha256": "6a7450b43ae1cd21db9958ad02b8b90fb01ebaa8e46ba05954844f2ef2d41504"
         }
       ],
-      "archiveSha256": "b56092e7949d94f0ee26a8156625ff03044c161a585bdc0017abc3a2cf15351b",
-      "downloadBytes": 6147631244,
+      "archiveSha256": "28e2df7d9be7b128623f5a0bce4a30d08a7812db01eae40b0363d4f46dc0c57d",
+      "downloadBytes": 6147880007,
       "originals": {
         "CoreMods/aircraft/F-16C/entry.lua": "dbe9622fe96baeda5ce9d676999ea57e97df9ad562b0f75ec666d47d484bd62c",
         "Mods/aircraft/F-16C/entry.lua": "32b6a51f7a3a72a0a5c1a612d81a4681b177ac5d47b35bd384a6c69a5aedd960"
