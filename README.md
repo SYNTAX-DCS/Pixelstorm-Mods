@@ -109,6 +109,8 @@ alone:
   too.
 - A few fixes for this setup: the joystick bindings, some cockpit textures, and where the ATFLIR
   pod hangs.
+- It's FR-3D's version 2.0. Their flight manual comes with it, in English and French: look in
+  your Saved Games DCS folder under `Mods\aircraft\Rafale FR-3D Player\Doc`.
 
 ### The Su-22M4
 

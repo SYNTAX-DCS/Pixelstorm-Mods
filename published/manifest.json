@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "packVersion": "1.5.6",
-  "publishedUtc": "2026-11-11T11:03:00.4069238Z",
+  "packVersion": "1.5.7",
+  "publishedUtc": "2026-11-11T14:11:16.8083683Z",
   "baseUrl": "https://github.com/SYNTAX-DCS/Pixelstorm-Mods/releases/download/pack-1.2.0",
   "mods": [
     {
@@ -177,7 +177,7 @@
       "id": "rafale-fr3d",
       "name": "Rafale B, C, M and BM",
       "author": "FR-3D Studio",
-      "version": "0.1.50e",
+      "version": "2.0",
       "summary": "Four Rafales beside the stock Hornet, carrying ED\u0027s standard weapons. Everyone can see them; flying one needs the F/A-18C module.",
       "targets": [
         "Mods/aircraft/Rafale FR-3D",
@@ -185,17 +185,17 @@
       ],
       "requires": [],
       "selfId": "Rafale FR-3D Studio",
-      "bytes": 2558750105,
-      "files": 1482,
+      "bytes": 2569282701,
+      "files": 1769,
       "parts": [
         {
-          "name": "rafale-fr3d-1.2.0.zip.part01",
-          "bytes": 1387839283,
-          "sha256": "63df9d6e183c943f8db0692d5f2b449e4fecedcad16d1a65a955aa50ba3cf471"
+          "name": "rafale-fr3d-1.5.7.zip.part01",
+          "bytes": 1388478058,
+          "sha256": "3d47b8f697c9d78fc6ac263171e79ec4c7e0d840f19b07616654eb03c128a9c0"
         }
       ],
-      "archiveSha256": "63df9d6e183c943f8db0692d5f2b449e4fecedcad16d1a65a955aa50ba3cf471",
-      "downloadBytes": 1387839283,
+      "archiveSha256": "3d47b8f697c9d78fc6ac263171e79ec4c7e0d840f19b07616654eb03c128a9c0",
+      "downloadBytes": 1388478058,
       "originals": {},
       "fromAuthor": []
     },
