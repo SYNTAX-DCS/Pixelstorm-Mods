@@ -57,14 +57,15 @@ only matters on a server that checks your files (see below).
 | Super Hornet and Growler, downloaded from CJS (see below) | Chiller Juice Studios |
 | UH-60L Black Hawk, downloaded from Kinkku (see below) | Kinkku |
 | GBU-39 SDB bomb, downloaded from Haack (see below; optional, Modern F-15E users skip it) | Haack |
+| Modern Missiles: AIM-120D and AIM-9X-2+ (adapted for DCS 2.9.31, see below) | Nightstorm |
 
 The packed aircraft come to 6,970 files, 23.55 GB once installed, 16.61 GB to download. You do
 not have to take all of them; tick only the ones you want.
 
 **These aircraft are their authors' work, not ours.** They are packed here as their authors
-shipped them, with four exceptions described below: the Su-34 and the Rafale both carry our
-changes, the Su-22M4 has one folder taken out, and the F-16I Sufa leaves out some of DCMii's
-files and renames a few others. The Super Hornet, the UH-60L and the SDB are not packed
+shipped them, with five exceptions described below: the Su-34 and the Rafale both carry our
+changes, the Su-22M4 has one folder taken out, the F-16I Sufa leaves out some of DCMii's
+files and renames a few others, and Nightstorm's Modern Missiles are adapted for the current DCS. The Super Hornet, the UH-60L and the SDB are not packed
 here at all; they come from their makers. This app installs them and gets out of the way. If you
 fly one and enjoy it, go and tell the person who made it. **Any author who would rather their mod was not distributed here
 only has to say so and it comes out of the pack.**
@@ -199,6 +200,36 @@ download can fail, until the list here catches up.
 
 Installed it already and then picked up Modern F-15E? Untick it here and press Apply.
 
+### Modern Missiles
+
+Nightstorm's Modern Missiles (freeware, from ED User Files) swap two of ED's missiles for newer
+ones: the AIM-120B becomes an AIM-120D, and the AIM-9X becomes an AIM-9X-2+. The AIM-9L also
+flies as an AIM-9X, the AIM-9M and AIM-120C are improved, and your displays keep the old names.
+ED's NASAMS launchers fire the new AMRAAMs too, in any mission you fly alone or host.
+
+They are for Pixelstorm. Like the Sufa, they go into your DCS installation: they replace seven of
+ED's files and add one, so they change these missiles on every server you join. **Before
+Training, or any server that flies stock weapons or checks your files, untick Modern Missiles and
+press Apply.** The server needs nothing from you: your own PC flies the missiles you fire.
+
+The pack's copy is not Nightstorm's release as it was made. Those files were built for DCS
+2.9.12, and laid down whole over today's DCS they remove ED's MIM-72G Chaparral missile and
+undo ED's 2026 Sidewinder changes. So the pack has merged two of the options onto ED's current
+files instead, with these differences:
+
+- Only two of the six options, the AIM-9X-2 and AIM-120D ones. The IRIS-T and Python-5 options
+  are left out.
+- The AIM-9s fly with ED's 0.4 s guidance delay.
+- The AMRAAMs keep ED's own paint.
+- Two textures are ours: a stand-in for one ED removed in June 2026, and a normal map for the
+  AIM-120D, which the original never had.
+
+Report problems to us, not to Nightstorm. If you installed Nightstorm's own download yourself,
+remove it first: the app will not lay its copy over it. It needs Pixelstorm Mods 0.2.1 or later.
+When a DCS update changes any of these missiles, the app will not switch them on again until the
+pack has caught up, so untick the row and press Apply until then.
+
+
 ---
 
 ## What it does to your DCS
@@ -214,7 +245,7 @@ When the pack carries a newer build of a mod you already have, its row turns amb
 swaps the old build for the new one. A mod that did not change is never downloaded again.
 
 Some mods change files inside your DCS installation, the program folder itself, and the F-16I
-Sufa is one of them. Pixelstorm runs
+Sufa and Modern Missiles are two of them. Pixelstorm runs
 with file checks off, so that is fine there. Before such a mod replaces a file, the app keeps a
 copy of yours, and Disable All puts each one back.
 

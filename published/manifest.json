@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "packVersion": "1.5.4",
-  "publishedUtc": "2026-11-10T07:47:26.7889468Z",
+  "packVersion": "1.5.5",
+  "publishedUtc": "2026-11-11T07:18:28.6549643Z",
   "baseUrl": "https://github.com/SYNTAX-DCS/Pixelstorm-Mods/releases/download/pack-1.2.0",
   "mods": [
     {
@@ -380,7 +380,7 @@
       "name": "GBU-39 SDB (Haack)",
       "author": "Haack",
       "version": "2.4.4",
-      "summary": "Don\u0027t tick this if you run Modern F-15E: it already loads the SDBs, and installing both gives you giant bombs. Everyone else needs it for Pixelstorm, which turns you away at the join screen without it. Haack\u0027s GBU-39 Small Diameter Bomb and BRU-61 rack, downloaded from Haack\u0027s own release.",
+      "summary": "Don\u0027t tick this if you run Modern F-15E: it already loads the SDBs, and installing both gives you giant bombs. For everyone else it\u0027s optional: Pixelstorm doesn\u0027t require it, and it lets you see the SDBs that Modern F-15E pilots drop there. Haack\u0027s GBU-39 Small Diameter Bomb and BRU-61 rack, downloaded from Haack\u0027s own release.",
       "targets": [
         "Mods/tech/ModernF15E_SDB"
       ],
@@ -404,6 +404,46 @@
           }
         }
       ]
+    },
+    {
+      "id": "modern-missiles",
+      "name": "Modern Missiles (Nightstorm)",
+      "author": "Nightstorm",
+      "version": "1.30 for DCS 2.9.31",
+      "summary": "Nightstorm\u0027s AIM-120D and AIM-9X-2\u002B for Pixelstorm, in place of ED\u0027s AIM-120B and AIM-9X. It goes into your DCS installation and changes these missiles on every server you join, so before any server that flies stock weapons or checks your files, Training included, untick it and press Apply. The AIM-9L also flies as a 9X, the AIM-9M and AIM-120C are improved, and your displays keep the old names. Adapted by the pack for DCS 2.9.31, so report problems to the pack, not to Nightstorm. Remove any copy of his mod you installed yourself first. Needs Pixelstorm Mods 0.2.1 or later. If a DCS update changes these missiles, untick it and press Apply until the pack is updated.",
+      "targets": [
+        "Install/Bazar/World/Shapes/aim-120b.edm",
+        "Install/Bazar/World/Shapes/aim-9L.EDM",
+        "Install/Bazar/World/Shapes/aim-9x.edm",
+        "Install/Bazar/World/textures/AIM-120.zip",
+        "Install/CoreMods/aircraft/AircraftWeaponPack/aim120_family.lua",
+        "Install/CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua",
+        "Install/MissionEditor/data/images/Loadout/Weapon/us_AIM-120B.png",
+        "Install/MissionEditor/data/images/Loadout/Weapon/us_AIM-120D.png"
+      ],
+      "requires": [],
+      "selfId": "",
+      "bytes": 27171614,
+      "files": 8,
+      "parts": [
+        {
+          "name": "modern-missiles-1.5.5.zip.part01",
+          "bytes": 25914020,
+          "sha256": "74cbfbfcec04fddc5b739cde3fc72a8f191cfb7831999037a205e8611bcc6321"
+        }
+      ],
+      "archiveSha256": "74cbfbfcec04fddc5b739cde3fc72a8f191cfb7831999037a205e8611bcc6321",
+      "downloadBytes": 25914020,
+      "originals": {
+        "Bazar/World/Shapes/aim-120b.edm": "b6769a91b9ffd18a51a144a99f6589e0b258f196860e20a9637bb263ec647135",
+        "Bazar/World/Shapes/aim-9L.EDM": "18fafa69bcfe900d6b313b41da98401745582cd5f9028be8a31a59ec081902f6",
+        "Bazar/World/Shapes/aim-9x.edm": "a32d7b5b6cacfe1769b7b6fc099926d1cb73e2838813dcc2a70affaebe0cb1c0",
+        "Bazar/World/textures/AIM-120.zip": "d7b33b22b638331eb544a4b321226bfc262964d9b31504e7a4a6f85e74292a99",
+        "CoreMods/aircraft/AircraftWeaponPack/aim120_family.lua": "1d2fc016b9a6593b65bfd826042717194e5b4598eb37f9b3c910b341312966f8",
+        "CoreMods/aircraft/AircraftWeaponPack/aim9_family.lua": "f181ff70c4f593f50c27f61a25dca6014f0f6f93d9aa1df0e1e85b304a0d3990",
+        "MissionEditor/data/images/Loadout/Weapon/us_AIM-120B.png": "a40b17f59cad12b556bc036e58e693bb2b21432001e16508fb245a165d963d4b"
+      },
+      "fromAuthor": []
     }
   ],
   "skyProfile": "",
