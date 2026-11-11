@@ -186,12 +186,13 @@ If you fly it and enjoy it, Kinkku's Patreon post is the place to say so.
 **If you run Modern F-15E, leave this one unticked.** Modern F-15E already loads the SDBs, and
 with this installed as well they load twice and show up on the racks as giant bombs.
 
-Pixelstorm no longer needs it, so only tick it for a server that asks for it. It is Haack's GBU-39 Small Diameter Bomb and its BRU-61 rack, which Haack hands out on the Modern
-F-15E 2.4.4 release (https://github.com/65thhaack/Modern-F15E-Mod/releases/tag/v2.4.4) for
-servers and for players without Modern F-15E. Tick **GBU-39 SDB (Haack)** and press Apply, and
-the app downloads that 6 MB file from Haack's release, checks it is the exact one on its list,
-and puts it in `Saved Games\DCS\Mods\tech`. Nothing of it comes from us. It lets you join and see
-the bombs; dropping them needs Modern F-15E.
+For everyone else it's optional. Pixelstorm doesn't require it, but it does have SDBs: Modern
+F-15E pilots can drop them there, and this lets everyone else see them. It is Haack's GBU-39
+Small Diameter Bomb and its BRU-61 rack, which Haack hands out on the Modern F-15E 2.4.4 release
+(https://github.com/65thhaack/Modern-F15E-Mod/releases/tag/v2.4.4) for servers and for players
+without Modern F-15E. Tick **GBU-39 SDB (Haack)** and press Apply, and the app downloads that
+6 MB file from Haack's release, checks it is the exact one on its list, and puts it in
+`Saved Games\DCS\Mods\tech`. Nothing of it comes from us. Dropping SDBs needs Modern F-15E.
 
 Haack keeps only his newest release online, so for a short while after a new one comes out the
 download can fail, until the list here catches up.
