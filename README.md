@@ -56,7 +56,7 @@ only matters on a server that checks your files (see below).
 | F-16I Sufa and six F-16D two-seaters | DCMii |
 | Super Hornet and Growler, downloaded from CJS (see below) | Chiller Juice Studios |
 | UH-60L Black Hawk, downloaded from Kinkku (see below) | Kinkku |
-| GBU-39 SDB bomb, downloaded from Haack (see below; Pixelstorm needs it, Modern F-15E users skip it) | Haack |
+| GBU-39 SDB bomb, downloaded from Haack (see below; optional, Modern F-15E users skip it) | Haack |
 
 The packed aircraft come to 6,970 files, 23.55 GB once installed, 16.61 GB to download. You do
 not have to take all of them; tick only the ones you want.
@@ -186,8 +186,7 @@ If you fly it and enjoy it, Kinkku's Patreon post is the place to say so.
 **If you run Modern F-15E, leave this one unticked.** Modern F-15E already loads the SDBs, and
 with this installed as well they load twice and show up on the racks as giant bombs.
 
-Everyone else needs it: Pixelstorm turns away anyone who doesn't have it at the join screen. It
-is Haack's GBU-39 Small Diameter Bomb and its BRU-61 rack, which Haack hands out on the Modern
+Pixelstorm no longer needs it, so only tick it for a server that asks for it. It is Haack's GBU-39 Small Diameter Bomb and its BRU-61 rack, which Haack hands out on the Modern
 F-15E 2.4.4 release (https://github.com/65thhaack/Modern-F15E-Mod/releases/tag/v2.4.4) for
 servers and for players without Modern F-15E. Tick **GBU-39 SDB (Haack)** and press Apply, and
 the app downloads that 6 MB file from Haack's release, checks it is the exact one on its list,
