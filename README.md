@@ -25,6 +25,10 @@ mods stay on your disk, so switching them back on next week is instant and costs
 4. Tick the mods you want and press **Apply**.
 5. Start DCS.
 
+From version 0.4.1 the app keeps itself up to date. When you open it, it checks for a newer
+version, downloads it, checks it is exactly the file on the release, and restarts as the new one.
+Copies older than 0.4.1 can't do that, so download this one by hand once.
+
 To take one mod out again, untick it and press Apply. To take them all out, press
 **Disable All**. To get rid of a mod completely, right-click its row and delete it.
 
@@ -209,8 +213,8 @@ ED's NASAMS launchers fire the new AMRAAMs too, in any mission you fly alone or 
 
 They are for Pixelstorm. Like the Sufa, they go into your DCS installation: they replace seven of
 ED's files and add one, so they change these missiles on every server you join. **Before
-Training, or any server that flies stock weapons or checks your files, untick Modern Missiles and
-press Apply.** The server needs nothing from you: your own PC flies the missiles you fire.
+Training, or any server that flies stock weapons or checks your files, untick **Modern Missiles (Nightstorm)**
+and press Apply.** The server needs nothing from you: your own PC flies the missiles you fire.
 
 The pack's copy is not Nightstorm's release as it was made. Those files were built for DCS
 2.9.12, and laid down whole over today's DCS they remove ED's MIM-72G Chaparral missile and
